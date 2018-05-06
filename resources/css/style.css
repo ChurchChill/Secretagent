@@ -1,19 +1,19 @@
 html {
-  font-size: 18px;
-  font-family: Helvetica;
   color: white;
 }
 
 body {
   max-width: 960px;
+  font-size: 18px;
+  font-family: Helvetica;
 }
 
-header {
+.header {
   display: flex;
   background-color: black;
 }
 
-header img {
+.header img {
   display: flex;
   height: 1.5rem;
 }
