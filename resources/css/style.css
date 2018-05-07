@@ -20,15 +20,15 @@ body {
 
 .header img {
   height: 1.5rem;
-  padding: .66rem 0rem .66rem .5rem;
+  margin: .66rem 0rem .66rem .5rem;
 }
 
 .headeragent {
   display:block;
   font-size: 1rem;
-  padding-top: .66rem;
-  padding-bottom: .66rem;
-  padding-left: 1rem;
+  margin-top: .66rem;
+  margin-bottom: .66rem;
+  margin-left: 1rem;
 }
 
 .newarrival {
@@ -45,7 +45,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 20rem;
+  max-width: 20rem;
   background-color: black;
   font-weight: bold;
 }
@@ -53,11 +53,44 @@ body {
 .narrival {
   font-size: 1rem;
   margin-left: 3rem;
-  padding-top: 2rem;
+  margin-top: 2rem;
+  padding-bottom: .25rem;
 }
 
 .sportb {
   font-size: 2rem;
-  padding-top: .25rem;
   margin-left: 3rem;
+  margin-bottom: 2rem;
+
+}
+
+.midmenu {
+  display: flex;
+  justify-content: space-around;
+  background-color: firebrick;
+  align-items: center;
+  height: 3rem;
+}
+
+.itemlocation {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  border: solid 4px;
+  border-color: black;
+}
+
+.product img {
+  height: 9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.product p {
+  background-color: black;
 }
