@@ -61,14 +61,3 @@ body {
   padding-top: .25rem;
   margin-left: 3rem;
 }
-
-.midmenu {
-  display: flex;
-  background-color: red;
-}
-
-.midmenu li {
-  display: flex;
-  justify-content: space-between;
-  float: left;
-}
