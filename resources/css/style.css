@@ -1,7 +1,6 @@
 html {
   color: white;
   font-size: 18px;
-  margin: 0 auto;
 }
 
 body {
@@ -34,10 +33,42 @@ body {
 
 .newarrival {
   display: flex;
+  align-items: center;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
   background-repeat: no-repeat;
   height: 25em;
   margin: 0 auto;
-  width: 100%;
 
+}
+
+.arrival {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20rem;
+  background-color: black;
+  font-weight: bold;
+}
+
+.narrival {
+  font-size: 1rem;
+  margin-left: 3rem;
+  padding-top: 2rem;
+}
+
+.sportb {
+  font-size: 2rem;
+  padding-top: .25rem;
+  margin-left: 3rem;
+}
+
+.midmenu {
+  display: flex;
+  background-color: red;
+}
+
+.midmenu li {
+  display: flex;
+  justify-content: space-between;
+  float: left;
 }
