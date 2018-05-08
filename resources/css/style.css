@@ -16,6 +16,7 @@ body {
 .header {
   display: flex;
   background-color: black;
+  background-size: 100%;
 }
 
 .header img {
@@ -24,7 +25,6 @@ body {
 }
 
 .headeragent {
-  display:block;
   font-size: 1rem;
   margin-top: .66rem;
   margin-bottom: .66rem;
@@ -38,6 +38,8 @@ body {
   background-repeat: no-repeat;
   height: 25em;
   margin: 0 auto;
+  background-size: 100%
+
 
 }
 
@@ -66,7 +68,7 @@ body {
 
 .midmenu {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: firebrick;
   align-items: center;
   height: 3rem;
@@ -75,7 +77,8 @@ body {
 .itemlocation {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .product {
@@ -83,14 +86,38 @@ body {
   flex-direction: column;
   border: solid 4px;
   border-color: black;
+  width: 30%;
+
+
 }
 
-.product img {
+.productimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 9rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
-.product p {
+.productimage img{
+  max-width: 8rem;
+}
+
+.product h4 {
   background-color: black;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.placetime {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.title {
+  background-color: black
 }
