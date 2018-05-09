@@ -47,7 +47,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 20rem;
+  width: 20rem;
   background-color: black;
   font-weight: bold;
 }
@@ -72,6 +72,10 @@ body {
   background-color: firebrick;
   align-items: center;
   height: 3rem;
+}
+
+.menu {
+  display: none;
 }
 
 .itemlocation {
@@ -116,8 +120,110 @@ body {
   display: flex;
   justify-content: space-between;
   font-weight: bold;
+
+}
+
+.lochour {
+  width: 35%;
 }
 
 .title {
-  background-color: black
+  background-color: black;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.data {
+  color: black;
+  font-weight: lighter;
+  padding-top: .3rem;
+}
+
+.footer {
+  display: flex;
+  background-color: black;
+  height: 10rem;
+  margin-top: 3rem;
+
+}
+
+.copyright {
+  padding-top: 4rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .glasses {
+    display: none;
+  }
+  .product {
+    width: 47%;
+  }
+  .midmenu h4{
+    display: none;
+  }
+  .midmenu{
+    display: flex;
+    justify-content: center;
+  }
+  .midmenu h3{
+    display: flex;
+  }
+
+}
+
+@media only screen and (max-width: 470px) {
+
+   html {
+     font-size: 18px;
+   }
+
+  .newarrival {
+    height: 15rem;
+}
+
+  .narrival {
+    font-size: .77rem;
+  }
+  .sportb {
+    font-size: 1rem;
+  }
+
+  .itemlocation {
+    display: flex;
+    justify-content: center;
+  }
+
+   .watch {
+    display: none;
+  }
+
+  .pen {
+    width: 90%;
+  }
+
+  .placetime {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lochour {
+    width: 90%;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hours {
+    margin-top: .5rem;
+  }
+
+  .copyright {
+    display: flex;
+  }
+
 }
