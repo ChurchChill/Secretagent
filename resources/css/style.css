@@ -153,6 +153,10 @@ body {
 }
 
 @media only screen and (max-width: 1024px) {
+  .newarrival {
+    background-size: cover;
+  }
+
   .glasses {
     display: none;
   }
@@ -180,6 +184,11 @@ body {
 
   .newarrival {
     height: 15rem;
+    background-size: cover;
+}
+
+.arrival {
+  width: 100%
 }
 
   .narrival {
@@ -224,6 +233,7 @@ body {
 
   .copyright {
     display: flex;
+    justify-content: center;
   }
 
 }
